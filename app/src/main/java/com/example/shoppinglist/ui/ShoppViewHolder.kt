@@ -8,8 +8,8 @@ import com.example.shoppinglist.model.Shopp
 
 class ShoppViewHolder(view: View): RecyclerView.ViewHolder(view) {
 
-    private val product = itemView.findViewById<TextView>(R.id.product)
-    private val description = itemView.findViewById<TextView>(R.id.description)
+    private val product = itemView.findViewById<TextView>(R.id.card_description)
+    private val description = itemView.findViewById<TextView>(R.id.card_title)
 
     fun bind(item: Shopp) {
         product.text = item.product
