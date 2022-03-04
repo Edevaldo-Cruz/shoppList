@@ -2,14 +2,17 @@ package com.example.shoppinglist.ui
 
 
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import com.example.shoppinglist.R
 import com.example.shoppinglist.datasource.ShoppDataSource
 import com.example.shoppinglist.datasource.insertList
 import com.example.shoppinglist.model.Shopp
+import kotlinx.android.synthetic.main.activity_add_shopp.*
 
 
 class AddShoppActivity : AppCompatActivity() {
@@ -20,10 +23,15 @@ class AddShoppActivity : AppCompatActivity() {
 
     private lateinit var dataSource: ShoppDataSource
 
+    private var idShopp: Int? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_shopp)
+
+        //  Ação de retornar do icone na toolbar
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         // Referenciando as variaveis com o layout
         product = findViewById(R.id.product)
@@ -34,6 +42,16 @@ class AddShoppActivity : AppCompatActivity() {
 
         btn_new.setOnClickListener {
             saveList()
+            finish()
+        }
+
+        idShopp = intent.getIntExtra("ID_SHOPP", -1)
+
+        Toast.makeText(this, "ID: ${idShopp}", Toast.LENGTH_SHORT).show()
+
+
+        btn_cancel.setOnClickListener {
+            finish()
         }
     }
 

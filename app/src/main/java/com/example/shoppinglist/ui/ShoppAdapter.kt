@@ -1,7 +1,8 @@
 package com.example.shoppinglist.ui
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
+import android.view.*
+import android.widget.TextView
+import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.shoppinglist.R
 import com.example.shoppinglist.model.Shopp
@@ -17,12 +18,15 @@ class ShoppAdapter: RecyclerView.Adapter<ShoppViewHolder>() {
         notifyDataSetChanged()
     }
 
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ShoppViewHolder {
         val view = LayoutInflater
             .from(parent.context)
             .inflate(R.layout.item_shopp, parent, false)
 
         return ShoppViewHolder(view)
+
+
     }
 
     // Retorna quantos itens tem na lista
@@ -33,5 +37,5 @@ class ShoppAdapter: RecyclerView.Adapter<ShoppViewHolder>() {
         holder.bind(items[position])
     }
 
-}
 
+}

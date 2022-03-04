@@ -31,6 +31,16 @@
         app:layout_constraintTop_toTopOf="parent"
         style="@style/toolbar_main" />
 
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_filter"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@id/guide_end"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
     <TextView
         android:id="@+id/text"
         android:text="@string/label_text_remenber"
@@ -84,15 +94,22 @@
         tools:ignore="MissingConstraints"
         style="@style/footer" />
 
+
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/footer"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/footer"
         app:srcCompat="@drawable/ic_baseline_add_task_24"
         style="@style/add_btn"
-        android:contentDescription="Adicionar lembrente" />
+        android:contentDescription="Adicionar lembrente"
+        android:backgroundTint="@color/green"
+        android:clickable="true"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

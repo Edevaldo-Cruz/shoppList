@@ -44,7 +44,7 @@
             style="@style/title_card" />
 
 
-        <androidx.appcompat.widget.AppCompatImageView
+            <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/card_menu"
             app:srcCompat="@drawable/ic_baseline_menu_24"
             tools:layout_editor_absoluteY="11dp"

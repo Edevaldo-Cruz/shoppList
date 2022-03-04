@@ -9,17 +9,23 @@
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/ic_baseline_add_task_24.xml" value="0.2555" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.2555" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/ic_btn.xml" value="0.2555" />
+        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/ic_filter.xml" value="0.229" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/ic_footer.xml" value="0.2555" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/ic_grupo_8.xml" value="0.2555" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/ic_icon_material_playlist_add.xml" value="0.2555" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2555" />
+        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.234" />
+        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/ic_remenber.xml" value="0.229" />
+        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/ic_shopping.xml" value="0.229" />
+        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/drawable/splash_bg.xml" value="0.176" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/layout/activity_add_shoop.xml" value="0.1" />
-        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/layout/activity_add_shopp.xml" value="0.4" />
-        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/layout/activity_add_shopp.xml" value="0.264" />
+        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/layout/activity_splash.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/layout/empty_state.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/layout/item_shoop.xml" value="0.6" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/layout/item_shopp.xml" value="0.4" />
-        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/menu/main_menu.xml" value="0.2" />
+        <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/menu/main_menu.xml" value="0.536" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/menu/popup_menu.xml" value="0.25" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/menu/poupa_menu.xml" value="0.25" />
         <entry key="..\:/Users/edeva/AndroidStudioProjects/shoppingList/app/src/main/res/menu/top_app_bar.xml" value="0.25" />

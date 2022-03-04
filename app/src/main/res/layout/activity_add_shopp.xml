@@ -6,14 +6,15 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.google.android.material.appbar.MaterialToolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:navigationIcon="@drawable/ic_back"
         app:title="@string/label_title"
+        app:navigationIcon="@drawable/ic_back"
         app:titleTextColor="@color/white"
+
         style="@style/toolbarAdd" />
 
     <androidx.constraintlayout.widget.Guideline

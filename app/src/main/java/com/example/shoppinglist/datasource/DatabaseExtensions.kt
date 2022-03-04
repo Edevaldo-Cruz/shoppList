@@ -23,7 +23,7 @@ fun ShoppDataSource.insertList(item: Shopp) : Long {
 }
 
 @SuppressLint("Range")
-fun ShoppDataSource.shoppselect(): List<Shopp> {
+fun ShoppDataSource.shoppSelect(): List<Shopp> {
     val sql = "SELECT * FROM TB_SHOPPING"
 
     val cursor = readableDatabase.rawQuery(sql, null)
@@ -41,4 +41,15 @@ fun ShoppDataSource.shoppselect(): List<Shopp> {
         cursor.close()
     }
     return shoppList
+}
+
+//fun ShoppDataSource.selectItem() : List<Shopp> {...}
+
+fun ShoppDataSource.toUpdate(item: Shopp): Int {
+    val values = ContentValues().apply {
+        put("PRODUCT", item.product)
+        put("DESCRIPTION", item.description)
+    }
+
+    return writableDatabase.update("TB_SHOPPING", values, "ID=${item.id}", null)
 }
